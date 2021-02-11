@@ -1,0 +1,109 @@
+/* What attributes can I apply to the following section in order to resize images? Features Section Styles */
+
+
+
+/* Nav Styles */
+.ct-nav {
+
+    display:flex;
+    justify-content: space-between;    
+}
+
+/* Target Main Logo Image */
+/* allow me to reduce the size of the logo */
+.ct-nav img{
+    width: 20%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+/* want to set a minimum size of the order list */
+/* list-style removes bullets */
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px; 
+}
+
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid blue;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+/* Nav Styles End */
+/* Header Section */
+#header-text{
+    padding: 2vw;
+    
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+}
+
+/* Header Section End */
+/* Middle Section Styles */
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+}
+
+#middle-text h2{
+    padding: 1.5 vw;
+}
+
+/* Middle Section Styles End */
+
+
+
+
+/* Features Section Styles */
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 10vh;
+}
+
+#features-section{
+    margin: 8vw;    
+}
+
+/* Features Section Styles End */
+
+/* Community Section*/
+
+#Drone-image{
+    width: 50%;
+    max-width:75%;
+    margin-left: 3vw;
+}
+
+/* Community Section End*/
+
+/* Footer Section*/
+.footer-text-flex{
+    display:flex;
+    flex-direction:column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width: 100%;
+    max-width: 100%;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top:20vh;
+
+}
+
